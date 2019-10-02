@@ -1,0 +1,10 @@
+[Unit]
+Description=hmip-dongle
+After=network.target
+
+[Service]
+ExecStart=bash /usr/share/rf-usb/hmip-rf-usb.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target
