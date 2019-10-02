@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir /usr/share/rf-usb/
 cp hmip-rf-usb.sh /usr/share/rf-usb/
 chmod +x /usr/share/rf-usb/hmip-rf-usb.sh
