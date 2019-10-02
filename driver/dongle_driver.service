@@ -3,8 +3,7 @@ Description=hmip-dongle
 After=network.target
 
 [Service]
-ExecStart=bash /usr/share/rf-usb/hmip-rf-usb.sh
-User=root
+ExecStart=/bin/bash /usr/share/rf-usb/hmip-rf-usb.sh
 
 [Install]
 WantedBy=multi-user.target
