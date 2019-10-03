@@ -8,4 +8,4 @@ sudo cp dongle_driver.service /etc/systemd/system/
 chmod 644 /etc/systemd/system/dongle_driver.service
 
 sudo systemctl enable dongle_driver
-
+sudo systemctl start dongle_driver
