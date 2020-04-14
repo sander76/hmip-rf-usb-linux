@@ -1,8 +1,24 @@
 # HMIP-RF-USB on Linux
 
-## Driver installation
+## Installation:
 
 - Clone this repo
+
+## Java
+
+Make sure you have java installed:
+
+```shell script
+sudo apt update
+sudo apt upgrade
+
+sudo apt install default-jdk
+```
+
+To check: `java -version`
+
+## Driver installation
+
 - Go to the `driver` folder.
 - enter `. install.sh`
 
